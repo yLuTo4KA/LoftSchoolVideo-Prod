@@ -1,0 +1,95 @@
+.header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 20px;
+    margin-bottom: 30px;
+}
+.menu{
+    padding-right: 45px;
+}
+.menu__list{
+    padding-top: 7px;
+}
+.menu__item{
+    display: inline-flex;
+    margin-right: 55px;
+}
+.menu__item--active{
+    color: #FF3D00;
+}
+.menu__item:last-child{
+    margin-right: 0px;
+}
+
+.menu__link{
+    transition: color .3s;
+}
+.menu__link:hover{
+    color: #FF3D00;
+}
+
+.contacts{
+    line-height: 1.1;
+    text-align: right;
+    position: relative;
+    padding-top: 10px;
+}
+.contacts__phone{
+    font-size: 26px;
+    margin-bottom: 5px;
+}
+
+.contacts__link:hover .dropdown{
+    right: 0;
+    opacity: 80%;
+}
+.contacts__workhours{
+    color: #FF3D00;
+    text-decoration: underline;
+}
+.dropdown{
+    background: #FFF;
+    border-radius: 5px;
+    margin-top: 10px;
+    position: absolute;
+    right: 9999px;
+    opacity: 0;
+    transition: opacity .5s;
+}
+.dropdown::before{
+    content: "";
+    position: absolute;
+    width: 30px;
+    height: 30px;
+    transform: rotate(45deg);
+    left: 85px;
+    top: -5px;
+    background: #FFF;
+    z-index: -5;
+}
+.dropdown::after{
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: -10px;
+    left: 0;
+}
+.dropdown__list{
+    padding: 8px 18px;
+    text-align: left;
+}
+
+.dropdown__item{
+    color: #1E1F20;
+    font-size: 13px;
+    font-weight: 600;
+    margin-bottom: 8px;
+}
+.dropdown__item:first-child{
+    font-weight: 700;
+}
+.dropdown__item:last-child{
+    margin-bottom: 0;
+}

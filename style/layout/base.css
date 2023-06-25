@@ -1,0 +1,83 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700;800&display=swap');
+
+html, body{
+    height: 100%;
+}
+*{
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Open Sans', Arial, sans-serif;
+    background: #17191C;
+    color: #FFF;
+    font-size: 14px;
+    line-height: 1.42;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    margin: 0;
+}
+
+.wrapper{
+    display: flex;
+    flex-direction: column;
+    min-height: 100%;
+    overflow: hidden;
+    min-width: 1200px;
+}
+.section{
+    padding-bottom: 126px;
+    position: relative;
+}
+.container{
+    margin: 0 auto;
+    width: 1140px;
+}
+h1, h2, h3, h4, h5, h6{
+    margin: 0;
+    font-weight: normal;
+}
+p{
+    margin-top: 0;
+}
+ul li{
+    list-style: none;
+}
+a{
+    cursor: pointer;
+    text-decoration: none;
+    color: inherit;
+    font-style: normal;
+}
+button{
+    border: none;
+    cursor: pointer;
+}
+address{
+    font-style: normal;
+}
+
+.btn{
+    text-transform: uppercase;
+    padding: 18px 54px;
+    font-weight: 700;
+    border-radius: 35px;
+    transition: background .3s;
+}
+.btn--color--orange{
+    background: #FF5500;
+    color: #FFF;
+}
+.btn--color--orange:hover{
+    background: #FF3D00;
+}
+
+.btn--border--orange{
+    border: 2px solid #FF5500;
+    color: #FF5500;
+    transition: border .5s, color .5s, background .5s;
+}
+.btn--border--orange:hover{
+    background: #FF5500;
+    color: #FFF;
+}
