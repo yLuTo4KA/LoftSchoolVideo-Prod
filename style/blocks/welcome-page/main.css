@@ -1,0 +1,43 @@
+.welcome{
+    display: flex;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    align-items: center;
+    justify-content: center;
+    background: url(../../../img/welcome/bg.png) center top / cover no-repeat;
+}
+
+.welcome__logo{
+    margin-bottom: 40px;
+}
+.welcome__logo img{
+    max-width: 532px;
+    max-height: 147px;
+}
+
+
+.center{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    animation: rotates .8s forwards;
+    opacity: 0;
+}
+
+@keyframes rotates{
+    from{
+        transform: scale(0.1) rotate(30deg);
+    }
+    50%{
+        transform: rotate(-15deg);
+    }
+    70%{
+        transform: rotate(5deg);
+    }
+    to{
+        opacity: 1;
+    }
+}

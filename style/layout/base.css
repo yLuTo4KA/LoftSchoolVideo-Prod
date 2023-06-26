@@ -25,6 +25,16 @@ body{
     min-height: 100%;
     overflow: hidden;
     min-width: 1200px;
+    opacity: 0;
+    animation: pageSlide 1s forwards;
+}
+@keyframes pageSlide{
+    from{
+        opacity: 0;
+    }
+    to{
+        opacity: 1;
+    }
 }
 .section{
     padding-bottom: 185px;
