@@ -4,3 +4,12 @@
 @import url('../style/blocks/header.css');
 @import url('../style/blocks/main-page/main.css');
 @import url('../style/blocks/main-page/services.css');
+@import url('../style/blocks/main-page/news.css');
+@import url('../style/blocks/pager.css');
+@import url('../style/blocks/main-page/about.css');
+
+@import url('../style/blocks/footer.css');
+
+.main-page-wrapper{
+    background: url(../img/bg1-up.png) center top no-repeat, url(../img/bg2down.png) center bottom 150px no-repeat; 
+}

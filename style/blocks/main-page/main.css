@@ -1,8 +1,14 @@
+.main{
+    display: flex;
+}
+.hero{
+    padding-bottom: 225px;
+}
 .hero__container{
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    min-height: 585px;
+    min-height: 570px;
 }
 .main{
     display: flex;
@@ -13,15 +19,20 @@
 .main__text-section{
     width: 77%;
     text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 .main__title{
     font-size: 72px;
     font-weight: 800;
     text-transform: uppercase;
     margin-bottom: 20px;
-    line-height: 1.35;
+    line-height: 1.325;
 }
 .main__desc{
     margin-bottom: 45px;
     font-size: 18px;
 }
+
+

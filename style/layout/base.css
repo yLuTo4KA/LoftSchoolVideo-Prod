@@ -13,6 +13,7 @@ body{
     color: #FFF;
     font-size: 14px;
     line-height: 1.42;
+    height: 100%;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
     margin: 0;
@@ -26,8 +27,18 @@ body{
     min-width: 1200px;
 }
 .section{
-    padding-bottom: 126px;
+    padding-bottom: 185px;
     position: relative;
+}
+.section--last{
+    padding-bottom: 54px;
+}
+.section__title{
+    font-size: 36px;
+    font-weight: 800;
+    line-height: 1.1;
+    margin-bottom: 50px;
+    text-transform: uppercase;
 }
 .container{
     margin: 0 auto;
@@ -40,14 +51,24 @@ h1, h2, h3, h4, h5, h6{
 p{
     margin-top: 0;
 }
+ul{
+    padding: 0;
+    margin: 0;
+}
 ul li{
     list-style: none;
+    
+}
+img{
+    display: block;
+
 }
 a{
     cursor: pointer;
     text-decoration: none;
     color: inherit;
     font-style: normal;
+    
 }
 button{
     border: none;
@@ -63,6 +84,7 @@ address{
     font-weight: 700;
     border-radius: 35px;
     transition: background .3s;
+    display: inline-flex;
 }
 .btn--color--orange{
     background: #FF5500;
