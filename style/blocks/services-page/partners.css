@@ -1,0 +1,30 @@
+.inner__title{
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 1.1;
+    color: #1A1B1E;
+    margin-bottom: 70px;
+}
+.partners__list{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+}
+.partners__item{
+    width: 240px;
+    display: flex;
+    justify-content: center;
+    margin-left: -10px;
+    margin-bottom: 49px;
+}
+.partners__link{
+    filter: grayscale(100);
+    transition: filter .3s;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+.partners__link:hover{
+    filter: grayscale(0);
+}

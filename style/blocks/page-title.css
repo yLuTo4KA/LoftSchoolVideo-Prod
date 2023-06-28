@@ -1,0 +1,36 @@
+.section__title-page{
+    display: flex;
+    flex-direction: column;
+    min-height: 416px;
+    background: url(../../img/title-page.png) top center no-repeat;
+    padding-bottom: 25px;
+}
+.container__title-page{
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.page__title{
+    text-transform: uppercase;
+    font-size: 72px;
+    font-weight: 800;
+    line-height: 1.1;
+}
+.breadcrumbs__list{
+    display: flex;
+    align-items: center;
+    color: #9A9A9A;
+}
+
+.breadcrumbs__item:last-child{
+    font-weight: 700;
+}
+.breadcrumbs__item:first-child::after{
+    content: '/';
+    padding: 0px 4px 0px 4px;
+}
+.breadcrumbs__link{
+    font-size: 14px;
+    text-decoration: underline;
+}

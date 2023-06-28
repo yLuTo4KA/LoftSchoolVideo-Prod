@@ -4,6 +4,15 @@
     align-items: center;
     font-size: 16px;
 }
+.pager--light--theme{
+    color: #000;
+}
+.pager--light--theme .pager__item--active .pager__link{
+    color: #fff;
+}
+.pager--light--theme .pager__link:hover{
+    color: #fff;
+}
 .pager__display{
     padding-right: 25px;
     
@@ -14,6 +23,7 @@
 .pager__item{
     text-align: center;
     margin-right: 3px;
+    font-weight: 700;
 }
 .pager__item--active .pager__link{
     background: #FF5500;

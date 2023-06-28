@@ -1,0 +1,9 @@
+@import url('../style/layout/normalize.css');
+@import url('../style/layout/base.css');
+
+@import url('../style/blocks/header.css');
+@import url('../style/blocks/page-title.css');
+@import url('../style/blocks/page-content.css');
+@import url('../style/blocks/pager.css');
+@import url('../style/blocks/services-page/partners.css');
+@import url('../style/blocks/footer.css');

@@ -71,7 +71,7 @@ ul li{
 }
 img{
     display: block;
-
+    max-width: 100%;
 }
 a{
     cursor: pointer;
@@ -112,4 +112,12 @@ address{
 .btn--border--orange:hover{
     background: #FF5500;
     color: #FFF;
+}
+
+.inner__section{
+    color: #1A1B1E;
+    padding: 75px 0;
+}
+.inner__section--bg--grey{
+    background: #F4F5F5;
 }
