@@ -1,0 +1,11 @@
+
+.tag{
+    padding: 10px 25px;
+    background: #E7E7E7;
+    display: inline-flex;
+    border-radius: 35px;
+    font-size: 13px;
+}
+.tag--bg--orange{
+    background: #F2D4C9;
+}
